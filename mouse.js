@@ -14,4 +14,8 @@ Mouse.prototype.jump = function() {
 	console.log('Jumping mouse is an interesting idea!');
 }
 
+Mouse.prototype.fly = function() {
+	console.log('Mouse open wings and fly away!');
+};
+
 module.exports = Mouse;
